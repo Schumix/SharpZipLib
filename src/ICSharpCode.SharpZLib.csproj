@@ -56,7 +56,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Checksums\IChecksum.cs" />
     <Compile Include="Checksums\Adler32.cs" />
-    <Compile Include="Checksums\Crc32.cs" />
+    <Compile Include="Checksums\CRC32.cs" />
     <Compile Include="Zip\WindowsNameTransform.cs" />
     <Compile Include="Zip\ZipEntry.cs" />
     <Compile Include="Zip\ZipInputStream.cs" />
@@ -65,13 +65,13 @@
     <Compile Include="Zip\ZipFile.cs" />
     <Compile Include="GZip\GzipOutputStream.cs" />
     <Compile Include="GZip\GzipInputStream.cs" />
-    <Compile Include="GZip\GZipConstants.cs" />
+    <Compile Include="GZip\GZIPConstants.cs" />
     <Compile Include="Zip\ZipException.cs" />
     <Compile Include="BZip2\BZip2InputStream.cs" />
     <Compile Include="BZip2\BZip2OutputStream.cs" />
     <Compile Include="BZip2\BZip2Constants.cs" />
     <Compile Include="BZip2\BZip2.cs" />
-    <Compile Include="Checksums\StrangeCrc.cs" />
+    <Compile Include="Checksums\StrangeCRC.cs" />
     <Compile Include="Tar\TarEntry.cs" />
     <Compile Include="Tar\TarHeader.cs" />
     <Compile Include="Tar\TarBuffer.cs" />
