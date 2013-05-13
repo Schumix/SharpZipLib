@@ -1,0 +1,6 @@
+Name: ICSharpCode.SharpZLib
+Description: ICSharpCode.SharpZLib
+Version: 0.1
+
+Requires: 
+Libs: -r:@expanded_libdir@/@PACKAGE@/ICSharpCode.SharpZipLib.dll
