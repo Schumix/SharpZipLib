@@ -15,8 +15,6 @@
     <PreBuildEvent />
     <PostBuildEvent />
     <DocumentationFile>..\bin\ICSharpCode.SharpZipLib.xml</DocumentationFile>
-    <ProductVersion>8.0.50727</ProductVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <Optimize>True</Optimize>
@@ -24,8 +22,6 @@
     <DebugType>None</DebugType>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <BaseAddress>4194304</BaseAddress>
-    <FileAlignment>4096</FileAlignment>
     <NoWarn>219</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -35,8 +31,6 @@
     <DebugType>Full</DebugType>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <BaseAddress>4194304</BaseAddress>
-    <FileAlignment>4096</FileAlignment>
     <NoWarn>219</NoWarn>
   </PropertyGroup>
   <ItemGroup>

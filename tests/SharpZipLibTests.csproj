@@ -13,11 +13,6 @@
     <NoConfig>False</NoConfig>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <BaseAddress>4194304</BaseAddress>
-    <PlatformTarget>AnyCPU</PlatformTarget>
-    <FileAlignment>4096</FileAlignment>
-    <ProductVersion>8.0.50727</ProductVersion>
-    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -35,15 +30,6 @@
     <OutputPath>bin\Release\</OutputPath>
     <StartArguments>SharpZipLibTests.dll</StartArguments>
     <NoWarn>219</NoWarn>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
-    <StartAction>Program</StartAction>
-    <StartProgram>..\..\..\..\..\..\..\..\..\Bin\Nunit\bin\nunit.exe</StartProgram>
-    <StartArguments>SharpZipLibTests.dll</StartArguments>
-    <StartWorkingDirectory>.</StartWorkingDirectory>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
-    <StartArguments>SharpZipLibTests.dll</StartArguments>
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="AssemblyInfo.cs" />
