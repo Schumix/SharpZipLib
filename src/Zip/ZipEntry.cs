@@ -1053,7 +1053,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 				int vendorId = extraData.ReadShort();		// 2-character vendor ID 0x4541 = "AE"
 				int encrStrength = extraData.ReadByte();	// encryption strength 1 = 128 2 = 192 3 = 256
 				int actualCompress = extraData.ReadShort(); // The actual compression method used to compress the file
-				_aesVer = ver;
+				//_aesVer = ver;
 				_aesEncryptionStrength = encrStrength;
 				method = (CompressionMethod)actualCompress;
 			} else
@@ -1246,7 +1246,7 @@ namespace ICSharpCode.SharpZipLib.Zip
 		bool forceZip64_;
 		byte cryptoCheckValue_;
 #if !NET_1_1 && !NETCF_2_0
-		int _aesVer;							// Version number (2 = AE-2 ?). Assigned but not used.
+		//int _aesVer;							// Version number (2 = AE-2 ?). Assigned but not used.
 		int _aesEncryptionStrength;				// Encryption strength 1 = 128 2 = 192 3 = 256
 #endif
 		#endregion

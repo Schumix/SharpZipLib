@@ -33,6 +33,7 @@
     <Optimize>True</Optimize>
     <OutputPath>bin\Release\</OutputPath>
     <StartArguments>SharpZipLibTests.dll</StartArguments>
+    <NoWarn>219</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <StartAction>Program</StartAction>
