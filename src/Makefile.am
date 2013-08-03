@@ -6,13 +6,13 @@ EXTRA_DIST =
 if ENABLE_DEBUG
 ASSEMBLY_COMPILER_COMMAND = dmcs
 ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize- "-nowarn:219" -debug -define:DEBUG
-ASSEMBLY = ../bin/ICSharpCode.SharpZipLib.dll
+ASSEMBLY = ../bin/Debug/ICSharpCode.SharpZipLib.dll
 ASSEMBLY_MDB = $(ASSEMBLY).mdb
 COMPILE_TARGET = library
 PROJECT_REFERENCES = 
-BUILD_DIR = ../bin/
+BUILD_DIR = ../bin/Debug
 
-ICSHARPCODE_SHARPZIPLIB_DLL_MDB_SOURCE=../bin/ICSharpCode.SharpZipLib.dll.mdb
+ICSHARPCODE_SHARPZIPLIB_DLL_MDB_SOURCE=../bin/Debug/ICSharpCode.SharpZipLib.dll.mdb
 ICSHARPCODE_SHARPZIPLIB_DLL_MDB=$(BUILD_DIR)/ICSharpCode.SharpZipLib.dll.mdb
 
 endif
@@ -20,11 +20,11 @@ endif
 if ENABLE_RELEASE
 ASSEMBLY_COMPILER_COMMAND = dmcs
 ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize+ "-nowarn:219"
-ASSEMBLY = ../bin/ICSharpCode.SharpZipLib.dll
+ASSEMBLY = ../bin/Release/ICSharpCode.SharpZipLib.dll
 ASSEMBLY_MDB = 
 COMPILE_TARGET = library
 PROJECT_REFERENCES = 
-BUILD_DIR = ../bin/
+BUILD_DIR = ../bin/Release
 
 ICSHARPCODE_SHARPZIPLIB_DLL_MDB=
 

@@ -10,13 +10,13 @@ ASSEMBLY = bin/Debug/SharpZipLibTests.dll
 ASSEMBLY_MDB = $(ASSEMBLY).mdb
 COMPILE_TARGET = library
 PROJECT_REFERENCES =  \
-	../bin/ICSharpCode.SharpZipLib.dll
+	../bin/Debug/ICSharpCode.SharpZipLib.dll
 BUILD_DIR = bin/Debug/
 
 SHARPZIPLIBTESTS_DLL_MDB_SOURCE=bin/Debug/SharpZipLibTests.dll.mdb
 SHARPZIPLIBTESTS_DLL_MDB=$(BUILD_DIR)/SharpZipLibTests.dll.mdb
-ICSHARPCODE_SHARPZIPLIB_DLL_SOURCE=../bin/ICSharpCode.SharpZipLib.dll
-ICSHARPCODE_SHARPZIPLIB_DLL_MDB_SOURCE=../bin/ICSharpCode.SharpZipLib.dll.mdb
+ICSHARPCODE_SHARPZIPLIB_DLL_SOURCE=../bin/Debug/ICSharpCode.SharpZipLib.dll
+ICSHARPCODE_SHARPZIPLIB_DLL_MDB_SOURCE=../bin/Debug/ICSharpCode.SharpZipLib.dll.mdb
 ICSHARPCODE_SHARPZIPLIB_DLL_MDB=$(BUILD_DIR)/ICSharpCode.SharpZipLib.dll.mdb
 
 endif
@@ -28,11 +28,11 @@ ASSEMBLY = bin/Release/SharpZipLibTests.dll
 ASSEMBLY_MDB = 
 COMPILE_TARGET = library
 PROJECT_REFERENCES =  \
-	../bin/ICSharpCode.SharpZipLib.dll
+	../bin/Release/ICSharpCode.SharpZipLib.dll
 BUILD_DIR = bin/Release/
 
 SHARPZIPLIBTESTS_DLL_MDB=
-ICSHARPCODE_SHARPZIPLIB_DLL_SOURCE=../bin/ICSharpCode.SharpZipLib.dll
+ICSHARPCODE_SHARPZIPLIB_DLL_SOURCE=../bin/Release/ICSharpCode.SharpZipLib.dll
 ICSHARPCODE_SHARPZIPLIB_DLL_MDB=
 
 endif
