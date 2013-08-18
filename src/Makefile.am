@@ -5,7 +5,7 @@ EXTRA_DIST =
 
 if ENABLE_DEBUG
 ASSEMBLY_COMPILER_COMMAND = dmcs
-ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize- "-nowarn:219" -debug -define:DEBUG
+ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize- "-nowarn:219,1574" -debug -define:DEBUG
 ASSEMBLY = ../bin/Debug/ICSharpCode.SharpZipLib.dll
 ASSEMBLY_MDB = $(ASSEMBLY).mdb
 COMPILE_TARGET = library
@@ -19,7 +19,7 @@ endif
 
 if ENABLE_RELEASE
 ASSEMBLY_COMPILER_COMMAND = dmcs
-ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize+ "-nowarn:219"
+ASSEMBLY_COMPILER_FLAGS =  -noconfig -codepage:utf8 -warn:4 -optimize+ "-nowarn:219,1574"
 ASSEMBLY = ../bin/Release/ICSharpCode.SharpZipLib.dll
 ASSEMBLY_MDB = 
 COMPILE_TARGET = library

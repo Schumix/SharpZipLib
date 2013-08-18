@@ -18,7 +18,7 @@
     <DebugType>None</DebugType>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <NoWarn>219</NoWarn>
+    <NoWarn>219,1574</NoWarn>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -27,7 +27,7 @@
     <DebugType>Full</DebugType>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
-    <NoWarn>219</NoWarn>
+    <NoWarn>219,1574</NoWarn>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
