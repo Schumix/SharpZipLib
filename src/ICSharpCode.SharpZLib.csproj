@@ -9,13 +9,11 @@
     <AssemblyName>ICSharpCode.SharpZipLib</AssemblyName>
     <OutputType>Library</OutputType>
     <WarningLevel>4</WarningLevel>
-    <DocumentationFile>..\bin\ICSharpCode.SharpZipLib.xml</DocumentationFile>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <DebugType>none</DebugType>
     <Optimize>True</Optimize>
     <OutputPath>..\bin\Release</OutputPath>
-    <DebugType>None</DebugType>
     <RegisterForComInterop>False</RegisterForComInterop>
     <GenerateSerializationAssemblies>Auto</GenerateSerializationAssemblies>
     <NoWarn>219,1574</NoWarn>
