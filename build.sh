@@ -9,19 +9,19 @@ else
 fi
 
 if [ "$1" = "" ]; then
-	xbuild /p:Configuration="Release" Src/Newtonsoft.Json.Schumix.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
+	xbuild /p:Configuration="Release" ICSharpCode.SharpZLib.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
 else
 	if [ "$build_platform" = "" ]; then
 		if [ $build_conf = "debug" ]; then
-			xbuild /p:Configuration="Debug" Src/Newtonsoft.Json.Schumix.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
+			xbuild /p:Configuration="Debug" ICSharpCode.SharpZLib.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
 		else
-			xbuild /p:Configuration="Release" Src/Newtonsoft.Json.Schumix.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
+			xbuild /p:Configuration="Release" ICSharpCode.SharpZLib.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
 		fi
 	else
 		if [ $build_conf = "debug" ]; then
-			xbuild /p:Configuration="Debug" /p:PlatformTarget=$build_platform Src/Newtonsoft.Json.Schumix.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
+			xbuild /p:Configuration="Debug" /p:PlatformTarget=$build_platform ICSharpCode.SharpZLib.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
 		else
-			xbuild /p:Configuration="Release" /p:PlatformTarget=$build_platform Src/Newtonsoft.Json.Schumix.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
+			xbuild /p:Configuration="Release" /p:PlatformTarget=$build_platform ICSharpCode.SharpZLib.sln /flp:LogFile=xbuild.log;Verbosity=Detailed
 		fi
 	fi
 fi
